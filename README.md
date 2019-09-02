@@ -1,6 +1,8 @@
-# demo01
+# es6个人学习demo
 
-## 安装babel 
+## demo01
+
+### 安装babel 
 npm install -g babel-cli
 npm install --save-dev babel-preset-es2015 babel-cli
 添加**.babelrc**
@@ -12,7 +14,7 @@ npm install --save-dev babel-preset-es2015 babel-cli
     "plugins":[]
 }
 *
-## 简化命令
+### 简化命令
 "scripts": {
     "build": "babel src/index.js -o dist/index.js"
-},
+}
